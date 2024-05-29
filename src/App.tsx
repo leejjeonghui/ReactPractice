@@ -3,10 +3,11 @@ import viteLogo from "/vite.svg";
 import "./App.css";
 
 function App() {
+  const count =0;
   return(
   <div>
-    <h1>0</h1>
-    <button onClick={}>증가</button>
+    <h1>{count}</h1>
+    <button onClick={()=>count+1}>증가</button>
   </div>
   );
 }
