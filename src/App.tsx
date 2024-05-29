@@ -12,6 +12,7 @@ function App() {
     <h1>{count}</h1>
     <button onClick={()=>setCount((현재카운트)=>현재카운트+1)}>증가</button>
     <button onClick={()=>setCount((현재카운트)=>현재카운트-1)}>감소</button>
+    <button onClick={()=>setCount((현재카운트)=>현재카운트=0)}>초기화</button>
   </div>
   
   );
